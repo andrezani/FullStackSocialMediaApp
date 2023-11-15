@@ -1,4 +1,4 @@
-import { ID } from "appwrite";
+import { ID, Query } from "appwrite";
 
 import { appwriteConfig, account, databases, avatars } from "./config";
 import { INewUser } from "@/types";
