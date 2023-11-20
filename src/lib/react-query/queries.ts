@@ -20,6 +20,7 @@ import {
   likePost,
   getRecentPosts,
   getInfinitePosts,
+  searchPosts,
   savePost,
   deleteSavedPost,
 } from "@/lib/appwrite/api";
