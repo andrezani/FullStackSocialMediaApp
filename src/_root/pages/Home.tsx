@@ -9,12 +9,12 @@ const Home = () => {
 
   const {
     data: posts,
-    isPending: isPostLoading,
+    isLoading: isPostLoading,
     isError: isErrorPosts,
   } = useGetRecentPosts();
   const {
     data: creators,
-    isPending: isUserLoading,
+    isLoading: isUserLoading,
     isError: isErrorCreators,
   } = useGetUsers(10);
 
